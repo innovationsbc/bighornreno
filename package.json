@@ -1,0 +1,23 @@
+{
+  "name": "bighornbarandgrill",
+  "author": "BC Innovations Online",
+  "version": "1.0.0",
+  "description": "Landing page for the Big Horn Bar and Grill in Reno, NV.",
+  "dependencies": {
+    "instafeed.js": "^1.4.1",
+    "jssor-slider": "^23.0.3"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.8",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-header": "^1.8.8",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1"
+  },
+  "license": "ISC"
+}
