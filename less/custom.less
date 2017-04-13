@@ -24,8 +24,10 @@ a {
     color: @theme-primary;
     &:hover,
     &:focus {
-        color: darken(@theme-primary, 10%);
+        color: darken(@theme-primary, 20%);
+        text-decoration: none;
     }
+
 }
 
 h1,
@@ -409,6 +411,60 @@ footer p {
         }
     }
 }
+
+// Menu 
+.menu-header {
+    h2 {
+        .oswald-font;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu-title {
+        border: 2px solid @secondary-color;
+        border-radius: 25px;
+    }
+}
+
+.menu-content {
+    h2 {
+        .oswald-font;
+        display: inline-block;
+    }
+
+    h3 {
+        .oswald-font;
+        color: @price-color;
+
+        @media (min-width: 768px) {
+            float: right;
+            padding-right: 35px;
+        }
+    }
+    
+    p {
+        .oswald-font;
+        padding: 5px 15px;
+    }
+}
+
+.menu-additions {
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.menu-price {
+    .oswald-font;
+    color: @price-color;
+}
+
 
 // Google Maps
 .map-container {

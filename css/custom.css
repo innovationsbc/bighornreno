@@ -27,7 +27,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #af9e7b;
+  color: #99855e;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -354,6 +355,47 @@ footer p {
   margin: 0;
   background-color: #a2834e;
   border: 2px solid #c2b59b;
+}
+.menu-header h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu-header h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu-header .menu-title {
+  border: 2px solid #a2834e;
+  border-radius: 25px;
+}
+.menu-content h2 {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+}
+.menu-content h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #568424;
+}
+@media (min-width: 768px) {
+  .menu-content h3 {
+    float: right;
+    padding-right: 35px;
+  }
+}
+.menu-content p {
+  font-family: 'Oswald', sans-serif;
+  padding: 5px 15px;
+}
+.menu-additions {
+  padding-left: 10px;
+  font-style: italic;
+}
+.menu-price {
+  font-family: 'Oswald', sans-serif;
+  color: #568424;
 }
 .map-container {
   height: 300px;
