@@ -11,7 +11,7 @@
     $(window).resize(function(){
       sticky.css('height', sticky.height());
     });
-
+    
     var $section = $('#inner-navbar');
     
     $section.waypoint(function(direction) {
