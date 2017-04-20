@@ -59,18 +59,47 @@ hr.light {
     display: none;
 
     @media (min-width: 768px) {
-        .serif-font;
+        .ranger-font;
         display: inherit;
         margin: 0;
-        padding: 30px 0 10px;
+        padding: 30px 0 0;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         font-size: 5em;
-        font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #000;
     }
 }
+
+.brand-logo {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: inherit;
+        margin: 10px auto;
+        line-height: normal;    
+        height: 250px;
+        border-radius: 60px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.sub-brand {
+    display: none;
+
+    @media (min-width: 768px) {
+        .stint-font;
+        display: inherit;
+        margin: 0;
+        padding: 0px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 3em;
+        line-height: normal;
+        color: #000;
+    }
+}
+
 
 .address-bar {
     display: none;
@@ -110,16 +139,40 @@ hr.light {
     }
 }
 
-.navbar-header {
-    @media (min-width: 768px) {
-        display: none;
-    }
-}
-
 .navbar-brand {
+    padding: 0;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+
+    .brand {
+        .ranger-font;
+        display: block;
+        font-size: 2em;
+        color: #000;
+
+        @media (min-width: 768px) {
+            padding: 0;
+            line-height: normal;
+        }
+    }
+
+    .sub-brand {
+        .stint-font;
+        display: block;
+        font-size: 0.9em;
+        color: #000;
+
+        @media (min-width: 768px) {
+            padding: 0;
+            line-height: normal;
+        }
+    }
+
+    .brand-block {
+        display: inline-block;
+    }
+
 }
 
 .navbar-nav {
@@ -146,6 +199,20 @@ hr.light {
         background: #fff;
         background: rgba(255,255,255,0.9);
     }
+
+    .navbar-header {
+        padding: 0;
+
+        img {
+            height: 50px;
+            vertical-align: baseline;
+            display: inline-block;
+        }
+
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
 }
 
 .navbar-default.navbar-shadow {
@@ -158,13 +225,35 @@ hr.light {
         border: none;
         transition: 1000ms;
         background: @gray-lighter;
-        background: fade(@gray-lighter, 95%);
+        background: fade(#fff, 98%);
     }
 
     .nav {
         @media (min-width: 768px) {
             > li > a {
                 padding: 15px 35px;
+            }
+        }
+    }
+
+    .navbar-header {
+        padding: 0;
+
+        img {
+            height: 50px;
+            vertical-align: baseline;
+            display: inline-block;
+        }
+        
+        @media (min-width: 768px) {
+            display: block;
+
+            .navbar-brand {
+                position: absolute;
+            }
+
+            img {
+                height: 50px;
             }
         }
     }
@@ -177,15 +266,33 @@ hr.light {
 .brand-before,
 .brand-name {
     text-transform: capitalize;
+    .stint-font;
 }
 
 .brand-before {
-    margin: 15px 0;
+    margin: 15px 0 0;
 }
 
 .brand-name {
-    margin: 0;
+    margin: 15px 0 0;
     font-size: 4em;
+    .ranger-font;
+}
+
+.brand-after {
+    margin: 0;
+    font-size: 2em;
+    .stint-font;
+}
+
+.big-bar {
+    width: 70%;
+    margin: 0 0 15px;
+}
+
+.small-bar {
+    width: 50%;
+    margin: 0 0 15px;
 }
 
 .tagline-divider {
@@ -380,6 +487,20 @@ hr.light {
     }
 }
 
+.specials-table {
+    font-size: 16px;
+    margin: auto;
+
+    tr {
+        height: 50px;
+        text-align: left;
+    }
+
+    td {
+        padding-right: 50px;
+    }
+}
+
 footer {
     .social-icon > ul > li {
         margin-right: 20px;
@@ -412,6 +533,20 @@ footer p {
     }
 }
 
+.outter-carousel {
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 960px;
+    height:634px;
+    overflow:hidden;
+    visibility:hidden;
+
+    @media (min-width: 768px) {
+        position: relative;
+    }
+}
+
 // Menu 
 .menu-header {
     h2 {
@@ -419,17 +554,12 @@ footer p {
         text-transform: uppercase;
         font-weight: bold;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 2px;
     }
 
     h3 {
-        margin-top: 10px;
+        margin-top: 0px;
         margin-bottom: 10px;
-    }
-
-    .menu-title {
-        border: 2px solid @secondary-color;
-        border-radius: 25px;
     }
 }
 
