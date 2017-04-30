@@ -511,6 +511,7 @@ footer p {
 .menu-content p {
   font-family: 'Oswald', sans-serif;
   padding: 5px 15px;
+  text-transform: lowercase;
 }
 .menu-additions {
   padding-left: 10px;
