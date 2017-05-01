@@ -176,59 +176,15 @@
     <!-- Theme JavaScript -->
     <script src="/js/custom.min.js"></script>
 
-    <!-- Instagram Feed -->
-    <script type="text/javascript" src="/vendor/instafeed.js/instafeed.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <script type="text/javascript">
-        // Instagram Feed Initializer
-        var feed = new Instafeed({
-            get: 'user',
-            userId: '2131082587',
-            accessToken: '2131082587.1c0048b.8964c8db24da478ab9512eaf176d202b',
-            limit: 3,
-            resolution: 'standard_resolution',
-            sortBy: 'most-recent',
-            template: '<div  class="col-lg-4 col-md-12 col-sm-12 instagram-images"><div class="text-center"><a href="{{link}}"><img src="{{image}}" /></a></div><p>{{caption}}</p></div>',
-        });
-        feed.run();
+      ga('create', 'UA-98355609-1', 'auto');
+      ga('send', 'pageview');
 
-        // Image Carousel Initializer
-        jQuery(document).ready(function ($) {
-
-            var jssor_1_options = {
-              $AutoPlay: 1,
-              $SlideDuration: 800,
-              $SlideEasing: $Jease$.$OutQuint,
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*responsive code begin*/
-            /*remove responsive code if you don't want the slider scales while window resizing*/
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 960);
-                    console.log(refSize)
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            /*responsive code end*/
-        });
-        
     </script>
 
 </body>
