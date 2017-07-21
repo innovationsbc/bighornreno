@@ -54,6 +54,21 @@
   }
 }
 
+.transform(@degree) {
+  -webkit-transform: rotateY(@degree);
+  -moz-transform: rotateY(@degree);
+  -ms-transform: rotateY(@degree);
+  -o-transform: rotateY(@degree);
+  transform: rotateY(@degree);
+}
+
+.transition(@all; @ease) {
+  -webkit-transition: all @all ease-out @ease;
+  -moz-transition: all @all ease-out @ease;
+  -o-transition: all @all ease-out @ease;
+  transition: all @all ease-out @ease;
+}
+
 .sans-serif-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }

@@ -17,7 +17,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: url('../img/bg.jpg') fixed;
+  background: url('http://images.bcinnovationsonline.com/bg.jpg') fixed;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ hr.light {
     margin: 0;
     padding: 30px 0 0;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     font-size: 5em;
     line-height: normal;
     color: #000;
@@ -361,7 +361,9 @@ hr.light {
 .social-icon > ul > li {
   display: inline-block;
 }
-.social-icon > ul > li > a {
+.social-icon > ul > li > a,
+.social-icon > ul > li > a:active,
+.social-icon > ul > li > a:focus {
   background-color: #bbb;
   display: block;
   height: 70px;
@@ -376,7 +378,9 @@ hr.light {
   -o-transition: all 400ms ease-out 0s;
   transition: all 400ms ease-out 0s;
 }
-.social-icon > ul > li > a > i {
+.social-icon > ul > li > a > i,
+.social-icon > ul > li > a:active > i,
+.social-icon > ul > li > a:focus > i {
   color: #fff;
   display: inline-block;
   font-size: 32px;
@@ -416,6 +420,35 @@ hr.light {
   -o-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
+/*
+.social-icon > ul > li:hover a {
+
+    &.social-instagram {
+        background-color: @instagram-color;
+    }
+    &.social-facebook {
+        background-color: @facebook-color;
+    }
+    &.social-twitter {
+        background-color: @twitter-color;   
+    }
+    
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.social-icon > ul > li:hover a i {
+    color: #fff;
+    
+    -webkit-transform: rotateY(0deg);
+       -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+         -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+}*/
 .instagram-images img {
   max-height: 100%;
   max-width: 100%;
@@ -438,14 +471,18 @@ hr.light {
 }
 .specials-table {
   font-size: 16px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .specials-table tr {
-  height: 50px;
-  text-align: left;
+  text-align: center;
 }
 .specials-table td {
-  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.specials-table .day-of-week {
+  padding-bottom: 0;
 }
 footer .social-icon > ul > li {
   margin-right: 20px;
@@ -500,7 +537,7 @@ footer p {
 }
 .menu-content h3 {
   font-family: 'Oswald', sans-serif;
-  color: #568424;
+  font-size: 20px;
 }
 @media (min-width: 768px) {
   .menu-content h3 {
@@ -519,7 +556,6 @@ footer p {
 }
 .menu-price {
   font-family: 'Oswald', sans-serif;
-  color: #568424;
 }
 .map-container {
   height: 300px;
