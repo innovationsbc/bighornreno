@@ -1,6 +1,6 @@
 /*!
  * BC Innovations Online - v1.0.0
- * Copyright 2017-2017 BC Innovations Online
+ * Copyright 2017-2018 BC Innovations Online
  * Licensed under ISC
  */
 @font-face {
@@ -17,7 +17,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background: url('http://images.bcinnovationsonline.com/bg.jpg') fixed;
+  background: url('/img/bg-progress.jpg') fixed;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
