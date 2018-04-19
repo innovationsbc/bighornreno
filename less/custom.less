@@ -231,13 +231,13 @@ hr.light {
     .nav {
         @media (min-width: 768px) {
             > li > a {
-                padding: 15px 35px;
+                padding: 25px 35px;
             }
         }
     }
 
     .navbar-header {
-        padding: 0;
+        padding: 5px;
 
         img {
             height: 50px;
@@ -250,6 +250,7 @@ hr.light {
 
             .navbar-brand {
                 position: absolute;
+                padding: 10px 0;
             }
 
             img {
@@ -292,6 +293,11 @@ hr.light {
 
 .small-bar {
     width: 50%;
+    margin: 0 0 15px;
+}
+
+.x-small-bar {
+    width: 30%;
     margin: 0 0 15px;
 }
 
@@ -558,6 +564,29 @@ footer p {
         font-weight: bold;
         margin-top: 20px;
         margin-bottom: 2px;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.menu-layout {
+    h2 {
+        .oswald-font;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        a {
+            -webkit-transition: all .35s;
+            -moz-transition: all .35s;
+            transition: all .35s;
+            color: #c2b59b;
+            font-size: 22px;
+        }
     }
 
     h3 {
