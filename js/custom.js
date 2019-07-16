@@ -52,16 +52,24 @@
 
 // }());
 
-$(document).ready(function(){
+  var navbarHighlight = function() {
+    if ($('#inner-navbar').length > 0 ) {
+      $('#inner-navbar').affix({
+            offset: {
+                top: 275
+            }
+        })
+    }
+  };
 
-    var mainMenuSticky = function() {
+  var mainMenuSticky = function() {
   
-    var sticky = $('#outter-navbar');
+    // var sticky = $('#outter-navbar');
 
-    sticky.css('height', sticky.height());
-    $(window).resize(function(){
-      sticky.css('height', sticky.height());
-    });
+    // sticky.css('height', sticky.height());
+    // $(window).resize(function(){
+    //   sticky.css('height', sticky.height());
+    // });
 
     var $section = $('#inner-navbar');
     
@@ -70,10 +78,7 @@ $(document).ready(function(){
         if (direction === 'down') {
 
             $section.css({
-              'position' : 'fixed',
-              'top' : 0,
-              'width' : '100%',
-              'z-index' : 99999
+              
             }).addClass('navbar-shadow');;
 
       }
@@ -90,14 +95,16 @@ $(document).ready(function(){
     }, {
       offset: '0px'
     });
+  };  
 
-  };
 
+$(document).ready(function(){
 
 
   /**
    * We have to do a first detectation of offset because the page
    * could be load with scroll down set.
    */
-  mainMenuSticky();
+  // mainMenuSticky();
+  navbarHighlight();
 });

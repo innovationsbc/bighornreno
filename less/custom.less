@@ -215,17 +215,27 @@ hr.light {
     }
 }
 
-.navbar-default.navbar-shadow {
+
+.navbar-default.affix {
     -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
     -ms-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
+
+    position : fixed;
+    top : 0;
+    width : 100%;
+    z-index: 9999;
 
     @media (min-width: 768px) {
         border: none;
         transition: 1000ms;
         background: @gray-lighter;
         background: fade(#fff, 98%);
+        position : fixed;
+        top : 0;
+        width : 100%;
+        z-index: 9999;
     }
 
     .nav {
@@ -257,6 +267,10 @@ hr.light {
                 height: 50px;
             }
         }
+    }
+
+    .navbar-collapse {
+        z-index: 999;
     }
 }
 
