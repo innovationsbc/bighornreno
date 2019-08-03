@@ -5,14 +5,14 @@
 
 //   var mainMenuSticky = function() {
   
-//     var sticky = $('#outter-navbar');
+//     var sticky = $('#outter-navtavern');
 
 //     sticky.css('height', sticky.height());
 //     $(window).resize(function(){
 //       sticky.css('height', sticky.height());
 //     });
 
-//     var $section = $('#inner-navbar');
+//     var $section = $('#inner-navtavern');
     
 //     $section.waypoint(function(direction) {
 
@@ -23,7 +23,7 @@
 //               'top' : 0,
 //               'width' : '100%',
 //               'z-index' : 99999
-//             }).addClass('navbar-shadow');;
+//             }).addClass('navtavern-shadow');;
 
 //       }
 
@@ -31,10 +31,10 @@
 //         offset: '0px'
 //     });
 
-//     $('#outter-navbar').waypoint(function(direction) {
+//     $('#outter-navtavern').waypoint(function(direction) {
 
 //         if (direction === 'up') {
-//           $section.attr('style', '').removeClass('navbar-shadow');
+//           $section.attr('style', '').removeClass('navtavern-shadow');
 //         }
 //     }, {
 //       offset: '0px'
@@ -52,9 +52,9 @@
 
 // }());
 
-  var navbarHighlight = function() {
-    if ($('#inner-navbar').length > 0 ) {
-      $('#inner-navbar').affix({
+  var navtavernHighlight = function() {
+    if ($('#inner-navtavern').length > 0 ) {
+      $('#inner-navtavern').affix({
             offset: {
                 top: 275
             }
@@ -64,14 +64,14 @@
 
   var mainMenuSticky = function() {
   
-    // var sticky = $('#outter-navbar');
+    // var sticky = $('#outter-navtavern');
 
     // sticky.css('height', sticky.height());
     // $(window).resize(function(){
     //   sticky.css('height', sticky.height());
     // });
 
-    var $section = $('#inner-navbar');
+    var $section = $('#inner-navtavern');
     
     $section.waypoint(function(direction) {
 
@@ -79,7 +79,7 @@
 
             $section.css({
               
-            }).addClass('navbar-shadow');;
+            }).addClass('navtavern-shadow');;
 
       }
 
@@ -87,10 +87,10 @@
         offset: '0px'
     });
 
-    $('#outter-navbar').waypoint(function(direction) {
+    $('#outter-navtavern').waypoint(function(direction) {
 
         if (direction === 'up') {
-          $section.attr('style', '').removeClass('navbar-shadow');
+          $section.attr('style', '').removeClass('navtavern-shadow');
         }
     }, {
       offset: '0px'
@@ -106,5 +106,5 @@ $(document).ready(function(){
    * could be load with scroll down set.
    */
   // mainMenuSticky();
-  navbarHighlight();
+  navtavernHighlight();
 });

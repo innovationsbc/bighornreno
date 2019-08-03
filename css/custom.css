@@ -81,7 +81,6 @@ hr.light {
     line-height: normal;
     height: 250px;
     border-radius: 60px;
-    background: rgba(255, 255, 255, 0.2);
   }
 }
 .sub-brand {
@@ -100,11 +99,11 @@ hr.light {
     color: #000;
   }
 }
-.address-bar {
+.address-tavern {
   display: none;
 }
 @media (min-width: 768px) {
-  .address-bar {
+  .address-tavern {
     display: inherit;
     margin: 0;
     padding: 0 0 40px;
@@ -117,7 +116,7 @@ hr.light {
     color: #fff;
   }
 }
-#outter-navbar {
+#outter-navtavern {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -128,82 +127,82 @@ hr.light {
   }
 }
 @media (min-width: 768px) {
-  .navbar {
+  .navtavern {
     border-radius: 0;
     min-height: 0;
   }
 }
-.navbar-brand {
+.navtavern-brand {
   padding: 0;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
 }
-.navbar-brand .brand {
+.navtavern-brand .brand {
   font-family: 'Ranger', sans-serif;
   display: block;
   font-size: 2em;
   color: #000;
 }
 @media (min-width: 768px) {
-  .navbar-brand .brand {
+  .navtavern-brand .brand {
     padding: 0;
     line-height: normal;
   }
 }
-.navbar-brand .sub-brand {
+.navtavern-brand .sub-brand {
   font-family: 'Stint Ultra Expanded', cursive;
   display: block;
   font-size: 0.9em;
   color: #000;
 }
 @media (min-width: 768px) {
-  .navbar-brand .sub-brand {
+  .navtavern-brand .sub-brand {
     padding: 0;
     line-height: normal;
   }
 }
-.navbar-brand .brand-block {
+.navtavern-brand .brand-block {
   display: inline-block;
 }
-.navbar-nav {
+.navtavern-nav {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 3px;
 }
 @media (min-width: 768px) {
-  .navbar-nav {
+  .navtavern-nav {
     display: table;
     float: none;
     margin: 0 auto;
     table-layout: fixed;
     font-size: 1.25em;
   }
-  .navbar-nav > li > a {
+  .navtavern-nav > li > a {
     line-height: normal;
   }
 }
 @media (min-width: 768px) {
-  .navbar-default {
+  .navtavern-default {
     border: none;
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
   }
 }
-.navbar-default .navbar-header {
+.navtavern-default .navtavern-header {
   padding: 0;
 }
-.navbar-default .navbar-header img {
+.navtavern-default .navtavern-header img {
   height: 50px;
   vertical-align: baseline;
   display: inline-block;
 }
 @media (min-width: 768px) {
-  .navbar-default .navbar-header {
+  .navtavern-default .navtavern-header {
     display: none;
   }
 }
-.navbar-default.affix {
+.navtavern-default.affix {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
@@ -214,7 +213,7 @@ hr.light {
   z-index: 9999;
 }
 @media (min-width: 768px) {
-  .navbar-default.affix {
+  .navtavern-default.affix {
     border: none;
     transition: 1000ms;
     background: #bbb;
@@ -226,31 +225,31 @@ hr.light {
   }
 }
 @media (min-width: 768px) {
-  .navbar-default.affix .nav > li > a {
+  .navtavern-default.affix .nav > li > a {
     padding: 25px 35px;
   }
 }
-.navbar-default.affix .navbar-header {
+.navtavern-default.affix .navtavern-header {
   padding: 5px;
 }
-.navbar-default.affix .navbar-header img {
+.navtavern-default.affix .navtavern-header img {
   height: 50px;
   vertical-align: baseline;
   display: inline-block;
 }
 @media (min-width: 768px) {
-  .navbar-default.affix .navbar-header {
+  .navtavern-default.affix .navtavern-header {
     display: block;
   }
-  .navbar-default.affix .navbar-header .navbar-brand {
+  .navtavern-default.affix .navtavern-header .navtavern-brand {
     position: absolute;
     padding: 10px 0;
   }
-  .navbar-default.affix .navbar-header img {
+  .navtavern-default.affix .navtavern-header img {
     height: 50px;
   }
 }
-.navbar-default.affix .navbar-collapse {
+.navtavern-default.affix .navtavern-collapse {
   z-index: 999;
 }
 .img-full {
@@ -274,15 +273,15 @@ hr.light {
   font-size: 2em;
   font-family: 'Stint Ultra Expanded', cursive;
 }
-.big-bar {
+.big-tavern {
   width: 70%;
   margin: 0 0 15px;
 }
-.small-bar {
+.small-tavern {
   width: 50%;
   margin: 0 0 15px;
 }
-.x-small-bar {
+.x-small-tavern {
   width: 30%;
   margin: 0 0 15px;
 }
