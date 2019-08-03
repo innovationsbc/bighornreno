@@ -1,8 +1,8 @@
 {
-  "name": "bighorntavernandgrill",
+  "name": "bighorn-tavern",
   "author": "BC Innovations Online",
   "version": "1.0.0",
-  "description": "Landing page for the Big Horn Bar and Grill in Reno, NV.",
+  "description": "Landing page for the Big Horn Tavern in Reno, NV.",
   "dependencies": {
     "instafeed.js": "^1.4.1",
     "jssor-slider": "^23.0.3"

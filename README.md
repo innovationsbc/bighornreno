@@ -1,2 +1,2 @@
-# Bighorn Bar & Grill
+# Bighorn Tavern
 ## Website
