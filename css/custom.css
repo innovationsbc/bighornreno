@@ -12,6 +12,11 @@ body {
   height: 100%;
   width: 100%;
 }
+.message-header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #FFE70F;
+}
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-background-size: cover;
