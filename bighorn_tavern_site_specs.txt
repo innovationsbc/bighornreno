@@ -1,0 +1,48 @@
+I would like a site rebuilt in Wordpress built with the Divi theme. 
+
+The site currently exists with the URL https://www.bighorntavernreno.com/
+
+I am requesting that a site be created with 5 pages. The concept and copy can be pulled from the current existing site.
+
+- Home          : https://www.bighorntavernreno.com/
+- Menu          : https://www.bighorntavernreno.com/menu/
+                  https://www.bighorntavernreno.com/menu/dining/
+                  https://www.bighorntavernreno.com/menu/brunch/
+- Events        : https://www.bighorntavernreno.com/events/
+- Events Detail : https://www.bighorntavernreno.com/events/
+- Contact       : https://www.bighorntavernreno.com/contact/
+
+
+Overall concept of the site
+  This company is a local restaurant. The theme is supposed to be local bar and grill. They have a billiards table, darts, shuffle board for people to come and enjoy. 
+
+  MUST HAVE for the theme is to use the wood background that is on all the existing pages. The company uses this as their identity on business cards and social media posts.
+
+  Logo is included in the images.
+
+  When building the Events will you make an example event of Thursday Ladies night. This will be the blog post that is on the Events page and also has a page on the Event details section.
+
+
+Page specifics
+  
+  Home
+    A general home page with the copy that exists. Please use the images named X_SLIDESHOW to make an image carousel.
+
+  Menu
+    The current menu is broken out into multiple pages for Brunch and Dinner. I would like this to be on one page with a toggle to switch between the two menus. 
+
+    All the detail that is used on each menu item must be available. This is the Name, description, and price. Sometimes they also have different options such as the Bighorn Burger where there are upgrade options for Bacon, Cheese, etc.
+
+    Can you make an option to download the menu too. The Menu PDFs are included. 
+
+  Events
+    This page is not used right now. I would like this to be a list of blog posts that are tagged with "Event". This will be used to tell customers upcoming game nights, bands, or themes for the restaurant.
+
+  Event Details
+    A more detailed page with an image that describes the event.
+
+  Contact
+    A general contact page with the copy that exists and images. Use the current page for suggestions.
+
+
+The images that are on the site are attached.
