@@ -11,7 +11,7 @@
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.0.4",
     "gulp-header": "^1.8.8",
     "gulp-less": "^3.3.0",
